@@ -1,0 +1,55 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+
+}
+
+table{
+    color: #feffff;
+    margin-left: 25%;
+    border-color: #61af2b;
+    border-spacing-color:#61af2b  ;
+    align-self: center;
+
+
+}
+td{
+    width: 200px;
+    background-color: #4CAF50;
+}
+button:hover {
+    background-color: #fb1111;
+    color: #fdfdff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+h1, h2 {
+
+    width: 890px;
+    margin-left: 25%;
+    border: solid;
+    border-color: #61af2b;
+    border-width: 5px;
+
+    text-align: center;
+    background-color: #a9fbd5;
+
+
+
+    background-color: #38d348;
+    border-color: #4CAF50;
+    border-width: 5px;
+    color: #eeefef;
+}

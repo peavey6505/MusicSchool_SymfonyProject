@@ -1,0 +1,29 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/forum.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+{%  block body %}
+
+    <h1> Logowanie nie powiodło się </h1>
+
+    {#<ul>#}
+        {#{% for result in results %}#}
+
+            {#{% if result.haslo == haslo %}#}
+                {#<p>Zalogowano! Witaj {{ result.imie }} {{ result.nazwisko }}</p>#}
+            {#{% else %}#}
+                {#<p>Blad i chuj</p>#}
+            {#{% endif %}#}
+            {#<li>CHUJ</li>#}
+
+        {#{% endfor %}#}
+    {#</ul>#}
+    {#{% for result in results %}#}
+    {#<li> result.login </li>#}
+    {#{% endfor %}#}
+    <form action="{{ path('login') }}" >
+        <button type="submit">Powrót</button>
+    </form>
+
+{% endblock %}

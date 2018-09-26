@@ -1,0 +1,46 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/lekcje.css') }}" rel="stylesheet" />
+{% endblock %}
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> </title>
+</head>
+
+<body>
+
+<h1>Lekcje</h1>
+
+<table border="1" cellpadding="10" cellpadding="0">
+
+
+    <tr>
+        <td> Data </td><td> Instrument </td> <td> Tytuł piosenki </td> <td> Wykonawca </td><td> Tempo </td> <td> Komentarz</td>
+    </tr>
+
+    {% for result in results %}
+
+        <tr>
+            <td> {{ result.data }} </td> <td> {{ result.instrument}} </td><td> {{ result.tytul }} </td> <td> {{ result.wykonawca }} </td><td> {{ result.tempo }} </td> <td> {{ result.komentarz }}</td>
+
+        </tr>
+    {% endfor %}
+
+</table>
+
+
+<br/>
+<br/>
+<br/>
+
+
+
+<form  action={{path('profilUcznia')  }} method="post">
+    <input type="hidden" name="id" value={{ id }} />
+    <button type="submit">Powrót</button >
+</form>
+</body>
+</html>

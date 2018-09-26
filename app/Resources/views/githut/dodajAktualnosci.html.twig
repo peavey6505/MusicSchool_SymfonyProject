@@ -1,0 +1,28 @@
+
+{% block stylesheets %}
+    <link href="{{ asset('css/dodajAktualnosci.css') }}" rel="stylesheet" />
+{% endblock %}
+
+<h1>Aktalności</h1>
+<table border="1" cellpadding="10" cellpadding="0" >
+
+    {% for aktualnosc in aktualnosci %}
+
+        <tr>
+            <td> {{ aktualnosc.post }} </td> <td> {{ aktualnosc.data }} </td>
+
+        </tr>
+    {% endfor %}
+</table>
+
+<form action={{ path('dodajAktualnosci') }} method="post">
+    <textarea name="post">Post</textarea>
+    <button type="submit">Dodaj</button >
+    <input type="hidden" name="id" value={{ id }} />
+</form>
+
+<br/>
+<form action={{ path('profilNauczyciela') }} method="post">
+    <input type="hidden" name="id" value={{ id }} />
+    <button type="submit">Powrót</button >
+</form>

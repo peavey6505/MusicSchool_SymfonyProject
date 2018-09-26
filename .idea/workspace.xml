@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b7e6864-d223-4240-aff7-389e28a72c0c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="bazaUtworow.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/bazaUtworow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2193">
+              <caret line="129" column="19" lean-forward="false" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bazaUtworow.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/bazaUtworow.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profilNauczyciela.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/profilNauczyciela.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="11" lean-forward="false" selection-start-line="51" selection-start-column="3" selection-end-line="54" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GitHutController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GitHutController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1316" column="57" lean-forward="false" selection-start-line="1316" selection-start-column="57" selection-end-line="1316" selection-end-column="57" />
+              <folding>
+                <marker date="1515461276601" expanded="true" signature="1634:1678" ph="SELECT * FRO... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="2114:2160" ph="SELECT * FRO... nauczyciele" />
+                <marker date="1515461276601" expanded="true" signature="2591:2641" ph="SELECT * FRO... administratorzy" />
+                <marker date="1515461276601" expanded="true" signature="3343:3381" ph="SELECT * FRO... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="3563:3606" ph="SELECT * FRO... zdjecia" />
+                <marker date="1515461276601" expanded="true" signature="3829:3869" ph="SELECT * FRO... zdjecia" />
+                <marker date="1515461276601" expanded="true" signature="4639:4766" ph="SELECT * FRO... nauczyciele" />
+                <marker date="1515461276601" expanded="true" signature="5467:5532" ph="SELECT * fro... aktualnosci" />
+                <marker date="1515461276601" expanded="true" signature="5467:5536" ph="SELECT * fro... aktualnosci" />
+                <marker date="1515461276601" expanded="true" signature="6865:6934" ph="SELECT * fro... aktualnosci" />
+                <marker date="1515461276601" expanded="true" signature="8083:8153" ph="UPDATE uczni... " />
+                <marker date="1515461276601" expanded="true" signature="8806:8880" ph="UPDATE uczni... " />
+                <marker date="1515461276601" expanded="true" signature="9463:9735" ph="SELECT l.dzi... terminy_lekcji" />
+                <marker date="1515461276601" expanded="true" signature="10368:10667" ph="SELECT l.dzi... terminy_lekcji" />
+                <marker date="1515461276601" expanded="true" signature="11279:11533" ph="SELECT l.dat... lekcje" />
+                <marker date="1515461276601" expanded="true" signature="11279:11562" ph="SELECT l.dat... lekcje" />
+                <marker date="1515461276601" expanded="true" signature="12452:12617" ph="INSERT INTO zadania... " />
+                <marker date="1515461276601" expanded="true" signature="12979:13027" ph="SELECT u.imi... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="13166:13188" ph="SELECT * FRO... piosenki" />
+                <marker date="1515461276601" expanded="true" signature="13321:13346" ph="SELECT * FRO... instrumenty" />
+                <marker date="1515461276601" expanded="true" signature="14882:15058" ph="INSERT INTO uczniowie... " />
+                <marker date="1515461276601" expanded="true" signature="16290:16315" ph="SELECT * FRO... instrumenty" />
+                <marker date="1515461276601" expanded="true" signature="16960:17077" ph="INSERT INTO nauczyciele... " />
+                <marker date="1515461276601" expanded="true" signature="16960:17079" ph="INSERT INTO uczniowie... " />
+                <marker date="1515461276601" expanded="true" signature="17193:17312" ph="INSERT INTO nauczyciele... " />
+                <marker date="1515461276601" expanded="true" signature="17426:17545" ph="INSERT INTO nauczyciele... " />
+                <marker date="1515461276601" expanded="true" signature="17659:17778" ph="INSERT INTO nauczyciele... " />
+                <marker date="1515461276601" expanded="true" signature="17893:18012" ph="INSERT INTO nauczyciele... " />
+                <marker date="1515461276601" expanded="true" signature="18126:18245" ph="INSERT INTO nauczyciele... " />
+                <marker date="1515461276601" expanded="true" signature="19275:19306" ph="SELECT * FRO... tematy" />
+                <marker date="1515461276601" expanded="true" signature="20584:20743" ph="INSERT INTO lekcje... " />
+                <marker date="1515461276601" expanded="true" signature="21165:21213" ph="SELECT u.imi... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="21352:21374" ph="SELECT * FRO... piosenki" />
+                <marker date="1515461276601" expanded="true" signature="21507:21532" ph="SELECT * FRO... instrumenty" />
+                <marker date="1515461276601" expanded="true" signature="22427:22518" ph="INSERT INTO piosenki... " />
+                <marker date="1515461276601" expanded="true" signature="22885:22932" ph="SELECT * FRO... piosenki" />
+                <marker date="1515461276601" expanded="true" signature="23423:23474" ph="SELECT * FRO... piosenki" />
+                <marker date="1515461276601" expanded="true" signature="23856:23889" ph="SELECT * FRO... piosenki" />
+                <marker date="1515461276601" expanded="true" signature="24477:24508" ph="SELECT * FRO... tematy" />
+                <marker date="1515461276601" expanded="true" signature="25219:25279" ph="DELETE FROM " />
+                <marker date="1515461276601" expanded="true" signature="25498:25565" ph="SELECT * FRO... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="25863:25931" ph="SELECT * FRO... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="26791:26853" ph="DELETE FROM " />
+                <marker date="1515461276601" expanded="true" signature="27024:27081" ph="DELETE FROM " />
+                <marker date="1515461276601" expanded="true" signature="27299:27330" ph="SELECT * FRO... tematy" />
+                <marker date="1515461276601" expanded="true" signature="28109:28171" ph="DELETE FROM " />
+                <marker date="1515461276601" expanded="true" signature="28395:28464" ph="SELECT * FRO... nauczyciele" />
+                <marker date="1515461276601" expanded="true" signature="28764:28834" ph="SELECT * FRO... nauczyciele" />
+                <marker date="1515461276601" expanded="true" signature="29729:30019" ph="SELECT l.dat... lekcje" />
+                <marker date="1515461276601" expanded="true" signature="30233:30267" ph="SELECT * FRO... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="30927:30979" ph="INSERT INTO tematy... " />
+                <marker date="1515461276601" expanded="true" signature="31118:31149" ph="SELECT * FRO... tematy" />
+                <marker date="1515461276601" expanded="true" signature="31817:31883" ph="INSERT INTO aktualnosci... " />
+                <marker date="1515461276601" expanded="true" signature="32038:32103" ph="SELECT * FRO... aktualnosci" />
+                <marker date="1515461276601" expanded="true" signature="32810:32911" ph="INSERT INTO posty... " />
+                <marker date="1515461276601" expanded="true" signature="33237:33358" ph="SELECT post,... posty" />
+                <marker date="1515461276601" expanded="true" signature="33545:33616" ph="SELECT temat... tematy" />
+                <marker date="1515461276601" expanded="true" signature="33804:33846" ph="SELECT id, l... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="34687:34740" ph="DELETE FROM " />
+                <marker date="1515461276601" expanded="true" signature="34976:35101" ph="SELECT post,... posty" />
+                <marker date="1515461276601" expanded="true" signature="35099:35101" ph="SELECT post,... posty" />
+                <marker date="1515461276601" expanded="true" signature="35288:35359" ph="SELECT temat... tematy" />
+                <marker date="1515461276601" expanded="true" signature="35547:35589" ph="SELECT id, l... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="36474:36600" ph="INSERT INTO posty... " />
+                <marker date="1515461276601" expanded="true" signature="37441:37847" ph="SELECT z.id,... zadania" />
+                <marker date="1515461276601" expanded="true" signature="38033:38442" ph="SELECT z.id,... zadania" />
+                <marker date="1515461276601" expanded="true" signature="39400:39535" ph="INSERT INTO wiadomosci_nauczyciela... " />
+                <marker date="1515461276601" expanded="true" signature="39883:40074" ph="SELECT CONCA... nauczyciele" />
+                <marker date="1515461276601" expanded="true" signature="40988:41113" ph="INSERT INTO wiadomosci_ucznia... " />
+                <marker date="1515461276601" expanded="true" signature="41451:41544" ph="SELECT CONCA... uczniowie" />
+                <marker date="1515461276601" expanded="true" signature="42233:42454" ph="SELECT CONCA... wiadomosci_ucznia" />
+                <marker date="1515461276601" expanded="true" signature="43135:43386" ph="SELECT CONCA... wiadomosci_nauczyciela" />
+                <marker date="1515461276601" expanded="true" signature="44024:44355" ph="SELECT CONCA... egzaminy" />
+                <marker date="1515461276601" expanded="true" signature="44541:44872" ph="SELECT CONCA... egzaminy" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verifyLogin.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/verifyLogin.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wiadomosciUcznia.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/wiadomosciUcznia.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wiadomoscDoUcznia.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/wiadomoscDoUcznia.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profilUcznia.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/profilUcznia.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="80" column="16" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forum.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/forum.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="89" lean-forward="false" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>filtr</find>
+      <find>terminarz</find>
+      <find>profilNauczyciela</find>
+      <find>terminarzna</find>
+      <find>Nauczyciela</find>
+      <find>wiadomosciUcznia</find>
+      <find>dodajUcz</find>
+      <find>intval</find>
+      <find>dodajU</find>
+      <find>aktualnosc</find>
+      <find>usun</find>
+      <find>zarza</find>
+      <find>forum</find>
+      <find>usuntemat</find>
+      <find>uczen</find>
+      <find>posty</find>
+      <find>new Pass</find>
+      <find>loginAc</find>
+      <find>chec</find>
+      <find>checkLo</find>
+      <find>fdfdff</find>
+      <find>dodajAk</find>
+      <find>dodajUcznia</find>
+      <find>dodajNau</find>
+      <find>dodajNa</find>
+      <find>form</find>
+      <find>checklogin</find>
+      <find>lekcje</find>
+      <find>dodaju</find>
+      <find>wiadomoscDoU</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>wiadomosc</replace>
+      <replace>aktualnosc</replace>
+      <replace>egzaminy</replace>
+      <replace>lekcja</replace>
+      <replace>ucznia</replace>
+      <replace>nauczyciele</replace>
+      <replace>instrmenty</replace>
+      <replace>uczen</replace>
+      <replace>temat</replace>
+      <replace>nauczyciel</replace>
+      <replace>DESC</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/css/terminarz.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/posty.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/wiadomoscDoNauczyciela.css" />
+        <option value="$PROJECT_DIR$/web/css/posty.css" />
+        <option value="$PROJECT_DIR$/web/css/forum.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/edytujDane.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/zadania.css" />
+        <option value="$PROJECT_DIR$/web/css/edytujDane.css" />
+        <option value="$PROJECT_DIR$/web/css/pofilNauczyciela.css" />
+        <option value="$PROJECT_DIR$/web/css/lekcjeNauczyciela.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/wyswietlLekcjeNauczyciela.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/lekcje.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/lekcje.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/dodajAktualnosci.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/dodajLekcje.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/terminarzNauczciela.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/terminarzNauczyciela1.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/wiadomoscDoUcznia.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/wiadomosciNauczyciela.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/wiadomosciNauczyciela.css" />
+        <option value="$PROJECT_DIR$/web/css/profilAdmina.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/dodajUcznia.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/dodajUcznia.css" />
+        <option value="$PROJECT_DIR$/web/css/dodajNauczyciela.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/daneNauczyciela.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/dodajNauczyciela.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/usunUcznia.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/usunUcznia.css" />
+        <option value="$PROJECT_DIR$/web/css/usunNauczyciela.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/usunNauczyciela.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/zarzadzajForum.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/usunPost.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/usunPost.css" />
+        <option value="$PROJECT_DIR$/web/css/zarzadzajForum.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/dane.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/profilNauczyciela.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/profilAdmina.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/profilNauczyciela.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/dodajLekcje.css" />
+        <option value="$PROJECT_DIR$/web/css/dodajAktualnosci.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/dodajZadanie.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/dodajZadanie.css" />
+        <option value="$PROJECT_DIR$/web/css/login.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/verifyLogin.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/bazaUtworow.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/bazaUtworow.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/wiadomoscDoUcznia.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/profilUcznia.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/login.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/githut/forum.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/GitHutController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="527" />
+    <option name="y" value="100" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="githut" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony-3.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony-3.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../galery" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\symfony-3.dev\images" />
+      <recent name="D:\xampp\htdocs\symfony-3.dev\app\Resources\views\githut" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\symfony-3.dev\images" />
+      <recent name="D:\xampp\htdocs\symfony-3.dev\web\css" />
+      <recent name="D:\xampp\htdocs\symfony-3.dev\app\Resources\views\githut" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b7e6864-d223-4240-aff7-389e28a72c0c" name="Default" comment="" />
+      <created>1507712711166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507712711166</updated>
+      <workItem from="1507712712737" duration="5362000" />
+      <workItem from="1508709351843" duration="19421000" />
+      <workItem from="1508853221235" duration="21840000" />
+      <workItem from="1509009778990" duration="7812000" />
+      <workItem from="1509125461033" duration="25419000" />
+      <workItem from="1509291889289" duration="10958000" />
+      <workItem from="1509347391194" duration="1298000" />
+      <workItem from="1509447359437" duration="293000" />
+      <workItem from="1509449978265" duration="4468000" />
+      <workItem from="1509898951568" duration="14461000" />
+      <workItem from="1510425123958" duration="2131000" />
+      <workItem from="1511161987306" duration="976000" />
+      <workItem from="1511900624517" duration="12854000" />
+      <workItem from="1512119020900" duration="5258000" />
+      <workItem from="1512317254662" duration="10997000" />
+      <workItem from="1512949839403" duration="3259000" />
+      <workItem from="1515352655470" duration="1006000" />
+      <workItem from="1515361525078" duration="20322000" />
+      <workItem from="1515455964822" duration="5521000" />
+      <workItem from="1515626035588" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="173702000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/css/dane.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/edytujDane.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/terminarz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/terminarzNauczyciela.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/terminarzNauczyciela1.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/wiadomoscDoNauczyciela.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="43" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/wiadomoscDoUcznia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="58" column="15" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/dodajLekcje.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/profilAdmina.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/dodajPost.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/dodajUcznia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/daneNauczyciela.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/dodajNauczyciela.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="92" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/dodajNauczyciela.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/wiadomoscDoNauczyciela.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/wiadomosciNauczyciela.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/wiadomosciUcznia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/wiadomosciNauczyciela.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/usunNauczyciela.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="118" column="13" lean-forward="false" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/forum.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="44" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/zarzadzajForum.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/posty.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/posty.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/usunUcznia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2822">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/usunUcznia.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/usunPost.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/usunPost.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/zarzadzajForum.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/dane.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/lekcje.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/usunNauczyciela.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="25" lean-forward="false" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/profilUcznia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/profilNauczyciela.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/profilAdmina.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/dodajAktualnosci.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/dodajLekcje.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/dodajZadanie.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/dodajZadanie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/dodajUcznia.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/verifyLogin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/wiadomosciUcznia.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/profilNauczyciela.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="11" lean-forward="false" selection-start-line="51" selection-start-column="3" selection-end-line="54" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/bazaUtworow.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bazaUtworow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="19" lean-forward="false" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/wiadomoscDoUcznia.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/profilUcznia.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="16" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/githut/forum.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="89" lean-forward="false" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GitHutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1316" column="57" lean-forward="false" selection-start-line="1316" selection-start-column="57" selection-end-line="1316" selection-end-column="57" />
+          <folding>
+            <marker date="1515461276601" expanded="true" signature="1634:1678" ph="SELECT * FRO... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="2114:2160" ph="SELECT * FRO... nauczyciele" />
+            <marker date="1515461276601" expanded="true" signature="2591:2641" ph="SELECT * FRO... administratorzy" />
+            <marker date="1515461276601" expanded="true" signature="3343:3381" ph="SELECT * FRO... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="3563:3606" ph="SELECT * FRO... zdjecia" />
+            <marker date="1515461276601" expanded="true" signature="3829:3869" ph="SELECT * FRO... zdjecia" />
+            <marker date="1515461276601" expanded="true" signature="4639:4766" ph="SELECT * FRO... nauczyciele" />
+            <marker date="1515461276601" expanded="true" signature="5467:5532" ph="SELECT * fro... aktualnosci" />
+            <marker date="1515461276601" expanded="true" signature="5467:5536" ph="SELECT * fro... aktualnosci" />
+            <marker date="1515461276601" expanded="true" signature="6865:6934" ph="SELECT * fro... aktualnosci" />
+            <marker date="1515461276601" expanded="true" signature="8083:8153" ph="UPDATE uczni... " />
+            <marker date="1515461276601" expanded="true" signature="8806:8880" ph="UPDATE uczni... " />
+            <marker date="1515461276601" expanded="true" signature="9463:9735" ph="SELECT l.dzi... terminy_lekcji" />
+            <marker date="1515461276601" expanded="true" signature="10368:10667" ph="SELECT l.dzi... terminy_lekcji" />
+            <marker date="1515461276601" expanded="true" signature="11279:11533" ph="SELECT l.dat... lekcje" />
+            <marker date="1515461276601" expanded="true" signature="11279:11562" ph="SELECT l.dat... lekcje" />
+            <marker date="1515461276601" expanded="true" signature="12452:12617" ph="INSERT INTO zadania... " />
+            <marker date="1515461276601" expanded="true" signature="12979:13027" ph="SELECT u.imi... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="13166:13188" ph="SELECT * FRO... piosenki" />
+            <marker date="1515461276601" expanded="true" signature="13321:13346" ph="SELECT * FRO... instrumenty" />
+            <marker date="1515461276601" expanded="true" signature="14882:15058" ph="INSERT INTO uczniowie... " />
+            <marker date="1515461276601" expanded="true" signature="16290:16315" ph="SELECT * FRO... instrumenty" />
+            <marker date="1515461276601" expanded="true" signature="16960:17077" ph="INSERT INTO nauczyciele... " />
+            <marker date="1515461276601" expanded="true" signature="16960:17079" ph="INSERT INTO uczniowie... " />
+            <marker date="1515461276601" expanded="true" signature="17193:17312" ph="INSERT INTO nauczyciele... " />
+            <marker date="1515461276601" expanded="true" signature="17426:17545" ph="INSERT INTO nauczyciele... " />
+            <marker date="1515461276601" expanded="true" signature="17659:17778" ph="INSERT INTO nauczyciele... " />
+            <marker date="1515461276601" expanded="true" signature="17893:18012" ph="INSERT INTO nauczyciele... " />
+            <marker date="1515461276601" expanded="true" signature="18126:18245" ph="INSERT INTO nauczyciele... " />
+            <marker date="1515461276601" expanded="true" signature="19275:19306" ph="SELECT * FRO... tematy" />
+            <marker date="1515461276601" expanded="true" signature="20584:20743" ph="INSERT INTO lekcje... " />
+            <marker date="1515461276601" expanded="true" signature="21165:21213" ph="SELECT u.imi... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="21352:21374" ph="SELECT * FRO... piosenki" />
+            <marker date="1515461276601" expanded="true" signature="21507:21532" ph="SELECT * FRO... instrumenty" />
+            <marker date="1515461276601" expanded="true" signature="22427:22518" ph="INSERT INTO piosenki... " />
+            <marker date="1515461276601" expanded="true" signature="22885:22932" ph="SELECT * FRO... piosenki" />
+            <marker date="1515461276601" expanded="true" signature="23423:23474" ph="SELECT * FRO... piosenki" />
+            <marker date="1515461276601" expanded="true" signature="23856:23889" ph="SELECT * FRO... piosenki" />
+            <marker date="1515461276601" expanded="true" signature="24477:24508" ph="SELECT * FRO... tematy" />
+            <marker date="1515461276601" expanded="true" signature="25219:25279" ph="DELETE FROM " />
+            <marker date="1515461276601" expanded="true" signature="25498:25565" ph="SELECT * FRO... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="25863:25931" ph="SELECT * FRO... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="26791:26853" ph="DELETE FROM " />
+            <marker date="1515461276601" expanded="true" signature="27024:27081" ph="DELETE FROM " />
+            <marker date="1515461276601" expanded="true" signature="27299:27330" ph="SELECT * FRO... tematy" />
+            <marker date="1515461276601" expanded="true" signature="28109:28171" ph="DELETE FROM " />
+            <marker date="1515461276601" expanded="true" signature="28395:28464" ph="SELECT * FRO... nauczyciele" />
+            <marker date="1515461276601" expanded="true" signature="28764:28834" ph="SELECT * FRO... nauczyciele" />
+            <marker date="1515461276601" expanded="true" signature="29729:30019" ph="SELECT l.dat... lekcje" />
+            <marker date="1515461276601" expanded="true" signature="30233:30267" ph="SELECT * FRO... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="30927:30979" ph="INSERT INTO tematy... " />
+            <marker date="1515461276601" expanded="true" signature="31118:31149" ph="SELECT * FRO... tematy" />
+            <marker date="1515461276601" expanded="true" signature="31817:31883" ph="INSERT INTO aktualnosci... " />
+            <marker date="1515461276601" expanded="true" signature="32038:32103" ph="SELECT * FRO... aktualnosci" />
+            <marker date="1515461276601" expanded="true" signature="32810:32911" ph="INSERT INTO posty... " />
+            <marker date="1515461276601" expanded="true" signature="33237:33358" ph="SELECT post,... posty" />
+            <marker date="1515461276601" expanded="true" signature="33545:33616" ph="SELECT temat... tematy" />
+            <marker date="1515461276601" expanded="true" signature="33804:33846" ph="SELECT id, l... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="34687:34740" ph="DELETE FROM " />
+            <marker date="1515461276601" expanded="true" signature="34976:35101" ph="SELECT post,... posty" />
+            <marker date="1515461276601" expanded="true" signature="35099:35101" ph="SELECT post,... posty" />
+            <marker date="1515461276601" expanded="true" signature="35288:35359" ph="SELECT temat... tematy" />
+            <marker date="1515461276601" expanded="true" signature="35547:35589" ph="SELECT id, l... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="36474:36600" ph="INSERT INTO posty... " />
+            <marker date="1515461276601" expanded="true" signature="37441:37847" ph="SELECT z.id,... zadania" />
+            <marker date="1515461276601" expanded="true" signature="38033:38442" ph="SELECT z.id,... zadania" />
+            <marker date="1515461276601" expanded="true" signature="39400:39535" ph="INSERT INTO wiadomosci_nauczyciela... " />
+            <marker date="1515461276601" expanded="true" signature="39883:40074" ph="SELECT CONCA... nauczyciele" />
+            <marker date="1515461276601" expanded="true" signature="40988:41113" ph="INSERT INTO wiadomosci_ucznia... " />
+            <marker date="1515461276601" expanded="true" signature="41451:41544" ph="SELECT CONCA... uczniowie" />
+            <marker date="1515461276601" expanded="true" signature="42233:42454" ph="SELECT CONCA... wiadomosci_ucznia" />
+            <marker date="1515461276601" expanded="true" signature="43135:43386" ph="SELECT CONCA... wiadomosci_nauczyciela" />
+            <marker date="1515461276601" expanded="true" signature="44024:44355" ph="SELECT CONCA... egzaminy" />
+            <marker date="1515461276601" expanded="true" signature="44541:44872" ph="SELECT CONCA... egzaminy" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

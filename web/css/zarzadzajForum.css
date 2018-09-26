@@ -1,0 +1,87 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+
+}
+
+.radio{
+    background-color: #5eb5e0;
+    color: #feffff;
+    border: solid;
+    border-color: #61af2b;
+}
+
+h1, h2 {
+
+    width: 442px;
+
+    border: solid;
+    border-color: #61af2b;
+    border-width: 5px;
+
+    text-align: center;
+    background-color: #a9fbd5;
+
+
+
+    background-color: #38d348;
+    border-color: #4CAF50;
+    border-width: 5px;
+    color: #eeefef;
+}
+button:hover {
+    background-color: #fb1111;
+    color: #fdfdff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+
+
+}
+
+
+form.wyslij {
+    border: 3px solid #f1f1f1;
+    display: inline-block;
+
+
+
+
+}
+
+form.usunTemat{
+    margin-left: 38.5%;
+}
+
+ul{
+    margin-left: 36%
+}
+
+li{
+    align-items: center;
+}
+
+button.temat{
+    width: 452px;
+}
+
+.wprowadzTemat{
+    width: 452px;
+}
+
+form.powrotButton{
+    margin-left: 39%;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}

@@ -1,0 +1,78 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/profilNauczyciela.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+{% block body %}
+    <div class="w3-container w3-teal">
+        <h1>SZKOŁA MUZYCZNA - PROFIL NAUCZYCIELA</h1>
+    </div>
+
+
+    <div class="w3-bar" >
+
+    <div class = "inner">
+    <form action={{ path('daneNauczyciela') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Dane użytkownika</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('dodajLekcje') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Dodaj lekcje</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('wyswietlLekcjeNauczyciela') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Wyświetl Lekcje</button >
+    </form>
+    </div>
+
+
+
+    <div class = "inner">
+    <form action={{ path('dodajAktualnosci') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Dodaj Aktualności</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('dodajZadanie') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Dodaj zadanie</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('bazaUtworow') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Baza utworów</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('terminarzNauczyciela') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Terminarz</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('wiadomosciNauczyciela') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Wiadomości</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+        <form action="{{ path('login') }}" >
+            <button type="submit">Wyloguj</button>
+        </form>
+    </div>
+    </div>
+{% endblock %}

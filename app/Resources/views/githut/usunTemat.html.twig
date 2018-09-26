@@ -1,0 +1,37 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/dane.css') }}" rel="stylesheet" />
+{% endblock %}
+
+<form  action={{path('usunTemat')  }} method="post">
+    <input type="hidden" name="id" value={{ id }} />
+    <input type="text" name="idDoUsuniecia" /> Wprowadź id tematu do usunięcia<br/>
+
+    <button type="submit">Usuń</button >
+
+
+</form>
+
+
+
+
+
+<table border="1" cellpadding="10" cellpadding="0" >
+
+
+    <td> ID </td> <td> Temat </td>
+
+    {% for temat in tematy %}
+
+        <tr>
+            <td> {{ temat.id }} </td> <td> {{ temat.temat }} </td>
+        </tr>
+    {% endfor %}
+</table>
+{{ komunikat }}<br/>
+
+<br/>
+<form action={{ path('zarzadzajForum') }} method="post">
+    <input type="hidden" name="id" value={{ id }} />
+
+    <button type="submit">Powrót</button >
+</form>

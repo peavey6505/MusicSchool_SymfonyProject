@@ -1,0 +1,61 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/lekcjeNauczyciela.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<h1>Uczniowie</h1>
+
+<table border="1" cellpadding="10" cellpadding="0" >
+    <tr>
+        <td> ID </td> <td> Nazwisko </td> <td> Imię </td>
+    </tr>
+
+    {% for u in uczniowie %}
+
+        <tr>
+            <td> {{u.id}} </td> <td>{{u.nazwisko}} </td> <td> {{ u.imie }} </td>
+        </tr>
+    {% endfor %}
+
+</table>
+
+<br/>
+<br/>
+<br/>
+{% if lekcje != NULL %}
+
+    <table border="1" cellpadding="10" cellpadding="0">
+
+
+        <tr>
+            <td> Data </td><td> Instrument </td> <td> Tytuł piosenki </td> <td> Wykonawca </td><td> Tempo </td> <td> Komentarz</td>
+        </tr>
+
+        {% for lekcja in lekcje %}
+
+            <tr>
+                <td> {{ lekcja.data }} </td> <td> {{ lekcja.instrument}} </td><td> {{ lekcja.tytul }} </td> <td> {{ lekcja.wykonawca }} </td><td> {{ lekcja.tempo }} </td> <td> {{ lekcja.komentarz }}</td>
+
+            </tr>
+        {% endfor %}
+
+    </table>
+    
+{% endif %}
+
+<br/>
+<br/>
+<form  action={{path('wyswietlLekcjeNauczyciela')  }} method="post">
+
+    <input type="hidden" name="id" value={{ id }} />
+    <input type="text" name="id_ucznia"  />ID Ucznia<br/>
+    
+    <button type="submit">Wyświetl lekcje ucznia</button >
+</form>
+
+<form  action={{path('profilNauczyciela')  }} method="post">
+
+    <input type="hidden" name="id" value={{ id }} />
+
+    <button type="submit">Powrót</button >
+</form>

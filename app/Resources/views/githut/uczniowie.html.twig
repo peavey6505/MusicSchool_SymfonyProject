@@ -1,0 +1,14 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/dane.css') }}" rel="stylesheet" />
+{% endblock %}
+{% block body %}
+asdasdasdasd
+    <ul>
+    {% for uczen in uczniowie %}
+
+ <li>{{ uczen.imie }}</li>
+
+    {% endfor %}
+    </ul>
+
+{% endblock %}

@@ -1,0 +1,133 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/dodajLekcje.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> </title>
+</head>
+<h1>Dodaj lekcje</h1>
+
+
+
+<form action={{ path('dodajLekcje') }} method="post">
+
+    <input type="hidden" name="id" value={{ id }} />
+    <div class="w3-bar" >
+            <div class = "inner2">
+              <input type="text" name="id_ucznia" />ID Ucznia<br/>
+            </div>
+
+            <div class = "inner2">
+                <input type="text" name="id_piosenki"/>ID Piosenki<br/>
+            </div>
+
+                <div class = "inner2">
+                     <input type="text" name="id_instrumentu"/>ID Instrumentu<br/>
+                </div>
+        <div class = "inner2">
+            <input type="text" name="tempo"/>Wartość Tempa<br/>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <br/>    <br/>
+
+    <br/>
+
+        <textarea name="komentarz">Komentarz</textarea>
+    <button type="submit">Dodaj lekcje</button >
+    </div>
+
+</form>
+
+<br/><br/><br/>
+
+
+<div class="w3-bar" >
+
+    <div class = "inner">
+
+        <table border="1" cellpadding="10" cellpadding="0" >
+            <h2>Uczniowie</h2>
+            <tr>
+                <td> ID </td> <td> Imie </td> <td> Nazwisko </td>
+            </tr>
+
+            {% for uczen in uczniowie %}
+
+                <tr>
+                    <td> {{ uczen.id }} </td> <td> {{ uczen.imie }} </td> <td> {{ uczen.nazwisko }} </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+
+    <div class = "inner">
+
+        <table border="1" cellpadding="10" cellpadding="0" >
+           <h2>Instrumenty</h2>
+            <tr>
+                <td> ID </td> <td> Instrument </td>
+            </tr>
+
+            {% for i in instrumenty %}
+
+                <tr>
+                    <td> {{ i.id }} </td> <td> {{ i.instrument }} </td>     </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+
+    <div class = "inner">
+
+        <table border="1" cellpadding="10" cellpadding="0" >
+           <h2> Piosenki</h2>
+            <tr>
+                <td> ID </td> <td> Tytuł </td> <td> Wykonawca </td>
+            </tr>
+
+            {% for p in piosenki %}
+
+            <tr>
+                <td> {{ p.id }} </td> <td> {{ p.tytul }} </td> <td> {{ p.wykonawca }}</td>     </tr>
+            {% endfor %}
+        </table>
+            </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+
+<br/>
+
+
+
+<form action={{ path('profilNauczyciela') }} method="post">
+    <input type="hidden" name="id" value={{ id }} />
+    <button type="submit">Powrót</button >
+</form>

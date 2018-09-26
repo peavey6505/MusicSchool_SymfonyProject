@@ -1,0 +1,39 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/wiadomosciNauczyciela.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<form  action={{path('wiadomoscDoUcznia')  }} method="post">
+
+    <input type="hidden" name="id" value={{ id }} />
+
+    <button type="submit">Napisz wiadomość</button >
+</form>
+
+
+
+<br/>
+<br/><br/>
+<br/>
+<table border="1" cellpadding="10" cellpadding="0" >
+    <tr>
+        <td> Nadawca </td> <td> Wiadomość </td> <td> Data </td>
+    </tr>
+
+    {% for wiadomosc in wiadomosci %}
+
+        <tr>
+            <td> {{ wiadomosc.imieNazwiskoUcznia}} </td> <td>{{ wiadomosc.wiadomosc }} </td> <td> {{ wiadomosc.data }} </td>
+        </tr>
+    {% endfor %}
+
+</table>
+<br/><br/>
+
+
+<form  action={{path('profilNauczyciela')  }} method="post">
+
+    <input type="hidden" name="id" value={{ id }} />
+
+    <button type="submit">Powrót</button >
+</form>

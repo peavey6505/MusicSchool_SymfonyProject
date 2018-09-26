@@ -1,0 +1,65 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/dane.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> </title>
+</head>
+
+<body>
+
+
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+<h2>Dane Nauczyciela</h2>
+
+<table border="1" cellpadding="10" cellpadding="0">
+
+
+
+    <tr>
+        <td>Imie</td> <td> {{ results[0].imie }} </td>
+
+    </tr>
+
+    <tr>
+        <td>Nazwisko</td> <td>{{ results[0].nazwisko }}</td>
+
+    </tr>
+
+    <tr>
+        <td>Instrument</td> <td> {{ results[0].instrument }}</td>
+
+    </tr>
+
+    </tr>
+
+    <tr>
+
+
+    </tr>
+
+</table>
+
+
+
+
+
+
+<form action={{ path('profilNauczyciela') }} method="post">
+    <input type="hidden" name="id" value={{ results[0].id }}>
+    <button type="submit">Powrót</button >
+</form>
+</body>
+</html>

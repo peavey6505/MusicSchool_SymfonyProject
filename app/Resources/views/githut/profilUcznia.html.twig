@@ -1,0 +1,100 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/profilUcznia.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<html>
+<body></body>
+
+</html>
+
+{% block body %}
+
+    <style>
+        /*div { background-image: url("../../../../images/background.jpg"); }*/
+
+    </style>
+
+<div class="w3-bar" >
+    <div class="w3-container w3-teal">
+        <h1>SZKOŁA MUZYCZNA - PROFIL UCZNIA</h1>
+    </div>
+
+
+    <div class = "inner">
+    <form action={{ path('dane') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Dane użytkownika</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('lekcje') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Lekcje</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('terminarz') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Terminarz</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+    <form action={{ path('forum') }} method="post">
+        <input type="hidden" name="id" value={{ id }} />
+        <button type="submit">Forum</button >
+    </form>
+    </div>
+
+    <div class = "inner">
+        <form action={{ path('zadania') }} method="post">
+            <input type="hidden" name="id" value={{ id }} />
+            <button type="submit">Zadania</button >
+        </form>
+    </div>
+
+    <div class = "inner">
+        <form action={{ path('wiadomosciUcznia') }} method="post">
+            <input type="hidden" name="id" value={{ id }} />
+            <button type="submit">Wiadomosci</button >
+        </form>
+    </div>
+
+    <div class = "inner">
+        <form action={{ path('egzaminy') }} method="post">
+            <input type="hidden" name="id" value={{ id }} />
+            <button type="submit">Egzaminy</button >
+        </form>
+    </div>
+
+    <div class = "inner">
+        <form action="{{ path('login') }}" >
+            <button type="submit">Wyloguj</button>
+        </form>
+    </div>
+</div>
+
+    <div class="w3-container w3-teal">
+        <h1>Aktualności</h1>
+    </div>
+
+
+
+    <table border="1" cellpadding="10" cellpadding="0" >
+
+        {% for aktualnosc in aktualnosci %}
+
+            <tr>
+                <td> {{ aktualnosc.post }} </td> <td> {{ aktualnosc.data }} </td>
+
+            </tr>
+        {% endfor %}
+    </table>
+    </div>
+
+
+{% endblock %}
+

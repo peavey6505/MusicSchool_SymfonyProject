@@ -1,0 +1,55 @@
+
+{% block stylesheets %}
+    <link href="{{ asset('css/zadania.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> </title>
+</head>
+
+
+{% block body %}
+    <h1>Zadania do wykonania</h1>
+<table border="1" cellpadding="10" cellpadding="0" >
+    <tr>
+        <td> Insturment </td> <td> Utwór</td> <td> Nauczyciel </td>
+    </tr>
+
+    {% for zadanie in zadaniaNieZaliczone %}
+
+        <tr>
+            <td> {{ zadanie.instrument }} </td> <td> {{ zadanie.tytul }} </td> <td> {{ zadanie.imieNazwiskoNauczyciela }} </td>
+
+        </tr>
+    {% endfor %}
+</table>
+
+    <h1>Zadania zaliczone</h1>
+    <table border="1" cellpadding="10" cellpadding="0" >
+        <tr>
+            <td> Insturment </td> <td> Utwór</td> <td> Nauczyciel </td>
+        </tr>
+
+        {% for zadanie in zadaniaZaliczone %}
+
+            <tr>
+                <td> {{ zadanie.instrument }} </td> <td> {{ zadanie.tytul }} </td> <td> {{ zadanie.imieNazwiskoNauczyciela }} </td>
+
+            </tr>
+        {% endfor %}
+    </table>
+
+
+    <form  action={{path('profilUcznia')  }} method="post">
+        <input type="hidden" name="id" value={{ id }}>
+        <button type="submit">Powrót</button >
+    </form>
+    </body>
+{% endblock %}
+
+

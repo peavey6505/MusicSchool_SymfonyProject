@@ -1,0 +1,53 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/dodajNauczyciela.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+
+<div>
+<form action={{ path('dodajNauczyciela') }} method="post">
+
+    <input type="hidden" name="id" value={{ id }} />
+    <label>Imię</label>
+    <input type="text" name="imie" />
+    <label>Nazwisko</label>
+    <input type="text" name="nazwisko"/>
+
+    <label>Login</label>
+    <input type="text" name="login"/>
+    <label>Hasło</label>
+    <input type="password" name="haslo"/>
+    <label>Potwierdź hasło</label>
+    <input type="password" name="potwierdzHaslo"/>
+
+    <label>Instrument</label>
+    {#<input type="text" name="id_instrumentu"/>#}
+    {#<input type="text" name="idInstrumentu"/>#}
+
+
+    <select name="id_instrumentu">
+        <option value="1">Gitara</option>
+        <option value="2">Perkusja</option>
+        <option value="3">Bas</option>
+        <option value="4">Keyboard</option>
+        <option value="5">Skrzypce</option>
+        <option value="6">Flet</option>
+    </select>
+
+
+
+    {{ komunikat }} <br/><br/>
+    <button type="submit">Dodaj Ucznia</button >
+
+</form>
+</div>
+
+<form class="powrotButton" action={{ path('profilAdmina') }} method="post">
+    <input type="hidden" name="id" value={{ id }} />
+
+    <button type="submit">Powrót</button >
+</form>
+
+
+
+

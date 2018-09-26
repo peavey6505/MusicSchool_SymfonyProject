@@ -1,0 +1,78 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/usunUcznia.css') }}" rel="stylesheet" />
+{% endblock %}
+
+<div class="w3-bar" >
+
+    <div class = "inner">
+        Wprowadź id ucznia do usunięcia
+        <form action={{path('usunUcznia')  }} method="post">
+            <input type="hidden" name="id" value={{ id }} />
+
+            <input type="text" name="idDoUsuniecia" />
+
+
+            <button type="submit">Usuń</button >
+
+
+        </form>
+
+
+
+    </div>
+
+    <div class = "inner">
+
+        Szukaj po nazwisku:
+
+        <form action={{ path('usunUcznia') }} method="post">
+            <input type="hidden" name="id" value={{ id }} />
+            <input type="text" name="filtrNazwisko" />
+            <button type="submit">Szukaj</button >
+        </form>
+
+    </div>
+
+    <div class = "inner">
+
+
+
+        <form action={{ path('usunUcznia') }} method="post">
+            <input type="hidden" name="id" value={{ id }} />
+            <input type="hidden" name="wyczyscFiltr" value = "1" /><br/>
+            <button type="submit">Wyczyść wyszukiwanie</button >
+        </form>
+
+    </div>
+
+</div>
+
+
+
+
+
+<br/>
+<br/>
+<br/>
+
+<table border="1" cellpadding="10" cellpadding="0" >
+
+
+    <td> ID </td> <td> Nazwisko </td><td> Imię </td><td> Data urodzenia </td><td> Miasto </td>
+
+    {% for uczen in uczniowie %}
+
+        <tr>
+            <td> {{ uczen.id }} </td> <td> {{ uczen.nazwisko }} </td><td> {{ uczen.imie }} </td><td> {{ uczen.data_urodzenia }} </td><td> {{ uczen.miasto }} </td>
+
+        </tr>
+    {% endfor %}
+</table>
+{{ komunikat }}<br/>
+
+<br/>
+<form class="powrotButton" action={{ path('profilAdmina') }} method="post">
+    <input type="hidden" name="id" value={{ id }} />
+
+    <button type="submit">Powrót</button >
+</form>

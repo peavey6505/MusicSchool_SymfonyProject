@@ -1,0 +1,40 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/edytujDane.css') }}" rel="stylesheet" />
+{% endblock %}
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> </title>
+</head>
+<body>
+
+
+<h1>Edycja danych</h1>
+
+<form class="edytujTelefon" action={{ path('edytujTelefon') }} method="post">
+    <input type="hidden" name="id" value={{ id }}>
+    Nowy telefon<input type="text" name="telefon"><br/>
+    <button type="submit">Zatwierdź</button >
+</form>
+
+<form class="edytujEmail" action={{ path('edytujEmail') }} method="post">
+    <input type="hidden" name="id" value={{ id }}>
+    Nowy Email:<input type="text" name="email"><br/>
+    <button type="submit">Zatwierdź</button >
+</form>
+
+
+
+<br/>
+<br/>
+<br/>
+
+<form class="powrotButton" action={{ path('dane') }} method="post">
+    <input type="hidden" name="id" value={{ id }}>
+
+    <button type="submit">Powrót</button >
+</form>
+</body>

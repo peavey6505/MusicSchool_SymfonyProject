@@ -1,0 +1,60 @@
+
+
+{% block stylesheets %}
+    <link href="{{ asset('css/verifyLogin.css') }}" rel="stylesheet" />
+{% endblock %}
+
+{%  block body %}
+
+
+
+    <ul class="a">
+
+        {% if results != NULL %}
+        {% for result in results %}
+
+                {% if result.haslo == haslo %}
+                    {#<h1> Zalogowano </h1>#}
+                    {#jako#}
+                    <h2>Zalogowano!</h2>
+                    <p> Witaj {{ result.imie }} {{ result.nazwisko }}!</p>
+
+                    {% if userType == 'nauczyciel' %}
+                        <form action={{path('profilNauczyciela')  }} method="post">
+                            <input type="hidden" name="id" value={{ result.id }} />
+                            <button class="kontynuujButton" type="submit">Kontynuuj</button >
+                        </form>
+                    {% elseif  userType == 'uczen'  %}
+                        <form action={{path('profilUcznia')  }} method="post">
+                            <input type="hidden" name="id" value={{ result.id }} />
+                            <button class="kontynuujButton" type="submit">Kontynuuj </button >
+                        </form>
+
+                    {% elseif  userType == 'admin'  %}
+                        <form action={{path('profilAdmina')  }} method="post">
+                            <input type="hidden" name="id" value={{ result.id }} />
+                            <button class="kontynuujButton" type="submit">Kontynuuj</button >
+                        </form>
+                    {% endif %}
+
+                {% else %}
+                    <p>Błąd podczas wprowadzania danych</p>
+                {% endif %}
+
+
+
+
+        {% endfor %}
+
+        {% else %}
+            <p>Błąd podczas wprowadzania danych</p>
+        {% endif %}
+    </ul>
+
+    <form  action="{{ path('login') }}" >
+        <button class="powrotButton" type="submit">Powrót</button>
+    </form>
+
+{% endblock %}
+
+

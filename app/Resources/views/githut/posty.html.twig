@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> </title>
+</head>
+
+
+
+{% block stylesheets %}
+    <link href="{{ asset('css/posty.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+{% block body %}
+
+  <h1>Temat: {{ tematy[0].temat }}</h1>
+
+
+
+
+
+
+
+<table border="1" cellpadding="10" cellpadding="0">
+
+
+
+    <tr>
+        <td>Data</td> <td> Post </td>  <td> Autor </td>
+    </tr>
+
+
+    {% for p in posty %}
+    <tr>
+
+        <td> {{ p.data }}</td> <td> {{ p.post }}</td>
+
+        <td>
+        {% for u in uczniowie %}
+            {% if u.id == p.id_ucznia %}
+                 {{ u.login }}
+            {% endif %}
+        {% endfor %}
+        </td>
+
+    </tr>
+    {% endfor %}
+
+
+</table>
+
+{#'id' => $id,#}
+{#'posty' => $posty,#}
+{#'tematy' => $tematy#}
+{#'uczniowie' => $uczniowie#}
+
+
+
+
+
+    <br/><br/><br/><br/>
+
+<form class="wyslij" id ="dodajPost" action={{ path('posty') }} method="post">
+    Napisz post:
+    <input type="hidden" name="id" value={{ id }}>
+    <input type="hidden" name="id_tematu" value={{ id_tematu }}>
+    <textarea name="post" form="dodajPost">  </textarea>
+
+    <button type="submit">Dodaj</button >
+</form>
+
+    <form class="powrotButton" action={{path('profilUcznia')  }} method="post">
+        <input type="hidden" name="id" value={{ id }}>
+        <button type="submit">Powrót</button >
+    </form>
+
+
+
+
+
+{% endblock %}
+
+

@@ -1,0 +1,33 @@
+
+
+
+
+ {% block stylesheets %}
+     <link href="{{ asset('css/login.css') }}" rel="stylesheet" />
+ {% endblock %}
+{%  block body %}
+
+
+
+<form action="{{ path('checkLogin') }}" method="post">
+    <label for="username">Login</label>
+    <input type="text" id="username" name="_username" value="admin" />
+
+    <label for="password">Hasło</label>
+    <input type="password" id="password" name="_password" value="admin" /> <br/>
+
+    <input type="radio" name="userType" value="uczen" id="uczen"  > Uczeń <br>
+    <input type="radio" name="userType" value="nauczyciel" id="nauczyciel"  > Nauczyciel <br>
+    <input type="radio" name="userType" value="admin" id="admin" checked> Administrator <br>
+    {#<input type="radio" name="admin" value="" > Administrator <br>#}
+
+    {#
+        If you want to control the URL the user
+        is redirected to on success (more details below)
+        <input type="hidden" name="_target_path" value="/account" />
+    #}
+
+    <button type="submit">Zaloguj</button>
+</form>
+
+{% endblock %}

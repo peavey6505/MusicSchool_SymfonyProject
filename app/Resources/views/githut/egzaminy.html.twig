@@ -1,0 +1,47 @@
+
+{% block stylesheets %}
+    <link href="{{ asset('css/egzaminy.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<h1>Egzaminy nadchodzące</h1>
+
+<table border="1" cellpadding="10" cellpadding="0" >
+    <tr>
+        <td> Insturment </td> <td> Egzaminator </td>  <td> Stopień </td><td>Data</td>
+    </tr>
+
+    {% for egzamin in egzaminyNieZaliczone %}
+
+        <tr>
+            <td> {{ egzamin.instrument }} </td> <td> {{ egzamin.imieNazwiskoNauczyciela }} </td> <td> {{ egzamin.stopien }} </td> <td> {{ egzamin.data }}</td>
+
+        </tr>
+    {% endfor %}
+</table>
+
+<br/><br/>
+<h1>Egzaminy zaliczone</h1>
+
+<table border="1" cellpadding="10" cellpadding="0" >
+    <tr>
+        <td> Insturment </td> <td> Egzaminator </td>  <td> Stopień </td><td> Ocena</td>
+    </tr>
+
+    {% for egzamin in egzaminyZaliczone %}
+
+        <tr>
+            <td> {{ egzamin.instrument }} </td> <td> {{ egzamin.imieNazwiskoNauczyciela }} </td> <td> {{ egzamin.stopien }} </td> <td> {{ egzamin.ocena }}</td>
+
+        </tr>
+    {% endfor %}
+</table>
+<br/>
+<form action={{ path('profilUcznia') }} method="post">
+    <input type="hidden" name="id" value={{ id }}>
+
+    <button type="submit">Powrót</button >
+</form>
+
+
+

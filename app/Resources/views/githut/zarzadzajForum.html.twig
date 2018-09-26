@@ -1,0 +1,50 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/zarzadzajForum.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> </title>
+</head>
+
+
+
+
+<ul>
+
+    {#<li><a href="{{ path('posty') }}" methods="POST">{{ result.temat }}</a></li>#}
+
+
+
+    <form action="{{ path('usunPost') }}" method="post">
+
+
+        {% for t in tematy %}
+
+
+
+            <input type="radio" name="id_tematu" value="{{ t.id }}"  > {{ t.temat }} <br>
+
+        {% endfor %}
+
+        <input type="hidden" name="id" value = "{{ id }}" />
+        <button type="submit">Otwórz temat</button>
+    </form>
+
+
+</ul>
+
+
+<form class="usunTemat" action={{ path('usunTemat') }} method="post">
+    <input type="hidden" name="id" value={{ id }}>
+    <button class="usunTemat" type="submit">Usuń    temat   </button >
+</form>
+
+<form class="powrotButton" action={{ path('profilAdmina') }} method="post">
+    <input type="hidden" name="id" value={{ id }}>
+    <button type="submit">Powrót</button >
+</form>

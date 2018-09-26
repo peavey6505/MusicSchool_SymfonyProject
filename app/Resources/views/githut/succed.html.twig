@@ -1,0 +1,12 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/dane.css') }}" rel="stylesheet" />
+{% endblock %}
+
+{%  block body %}
+
+    <h1> Witaj {{ username }} </h1>
+
+    <form action={{path('profilUcznia')  }} method="post">
+        <button type="submit">Kontynuuj</button >
+    </form>
+{% endblock %}

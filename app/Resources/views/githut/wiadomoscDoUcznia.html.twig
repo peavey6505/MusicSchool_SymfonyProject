@@ -1,0 +1,51 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/wiadomoscDoUcznia.css') }}" rel="stylesheet" />
+{% endblock %}
+
+{#<form  action={{path('wiadomoscDoUcznia')  }} method="post">#}
+    {#<textarea name="wiadomosc">Wiadomość </textarea> <br/>#}
+    {#<input type="hidden" name="id" value={{ id }} />#}
+    {#<input type="text" name="id_ucznia" /> Wprowadź id odbiorcy<br/>#}
+
+
+    {#<button type="submit">Wyslij</button >#}
+{#</form>#}
+
+<form class="wyslij" action={{path('wiadomoscDoUcznia')  }} method="post">
+
+    <textarea name="wiadomosc">Wiadomość</textarea> <br/>
+    <input type="hidden" name="id" value={{ id }} />
+    Wprowadź id odbiorcy:
+    <input type="text" name="id_ucznia" /> <br/>
+
+    <br/>
+    {{ komunikat }}<br/>
+    <button type="submit">Wyslij</button >
+
+</form>
+
+
+
+
+
+
+
+<table border="1" cellpadding="10" cellpadding="0" >
+    <tr>
+        <td> ID </td> <td> Imię i nazwisko </td>
+    </tr>
+
+    {% for uczen in uczniowie %}
+
+        <tr>
+            <td> {{ uczen.id}} </td> <td> {{ uczen.imieNaziwskoUcznia }} </td>
+        </tr>
+    {% endfor %}
+</table>
+
+
+<form class="powrotButton"  action={{path('wiadomosciNauczyciela')  }} method="post">
+    <input type="hidden" name="id" value={{ id }} />
+
+    <button type="submit">Powrót</button >
+</form>

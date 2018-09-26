@@ -1,0 +1,60 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/forum.css') }}" rel="stylesheet" />
+{% endblock %}
+
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> </title>
+</head>
+
+
+
+
+<ul>
+
+        {#<li><a href="{{ path('posty') }}" methods="POST">{{ result.temat }}</a></li>#}
+
+
+    <h1>Tematy</h1>
+        <form class="tematyForm" action="{{ path('posty') }}" method="post">
+
+
+            {% for t in tematy %}
+
+
+
+                <input type="radio" name="id_tematu" value="{{ t.id }}"  > {{ t.temat }}  <br>
+
+
+            {#
+                If you want to control the URL the user
+                is redirected to on success (more details below)
+                <input type="hidden" name="_target_path" value="/account" />
+            #}
+            {% endfor %}
+
+            <input type="hidden" name="id" value = "{{ id }}" />
+            <button class="temat" type="submit">Otwórz temat</button>
+        </form>
+
+    <h1>Dodawanie tematu</h1>
+    <form class="wyslij" action={{ path('dodajTemat') }} method="post">
+        Wprowadź temat<br/><br/>
+        <input type="hidden" name="id" value={{ id }}>
+        <input class="wprowadzTemat" type="text" name="temat" ><br/>
+        <br/>
+
+        <button class="temat" type="submit">Dodaj temat</button >
+    </form>
+
+
+
+</ul>
+<form action={{ path('profilUcznia') }} method="post">
+    <input type="hidden" name="id" value={{ id }}>
+    <button type="submit">Powrót</button >
+</form>
